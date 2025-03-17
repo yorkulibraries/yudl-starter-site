@@ -1,0 +1,17 @@
+uuid: 9a020f6d-f9fb-4238-ac29-21f8b44a5bf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.access_control
+  module:
+    - user
+_core:
+  default_config_hash: Ho7kAAK5lfikAa9JcWp4kvrscc6NsDzeXmAtFMMhZCA
+id: access_control-group_membership
+group_type: access_control
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

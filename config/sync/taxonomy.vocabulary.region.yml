@@ -1,0 +1,11 @@
+uuid: 071263b2-313d-4942-a5f0-de6fccf8ac1c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 20HJA71tLTexCCqAesu64zaj2OenM8-Y1d_counNGyo
+name: Region
+vid: region
+description: 'Region(s) to which the records pertain.'
+weight: 0
+new_revision: false

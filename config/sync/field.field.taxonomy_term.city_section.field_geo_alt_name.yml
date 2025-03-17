@@ -1,0 +1,21 @@
+uuid: 2226f2ef-5e00-4ad0-aa31-01fe7e0ae457
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_geo_alt_name
+    - taxonomy.vocabulary.city_section
+_core:
+  default_config_hash: RXqpbAtCpJubTOJWMDpQ2-o0GDKve6afeh8oDR1skQw
+id: taxonomy_term.city_section.field_geo_alt_name
+field_name: field_geo_alt_name
+entity_type: taxonomy_term
+bundle: city_section
+label: 'Alternate Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

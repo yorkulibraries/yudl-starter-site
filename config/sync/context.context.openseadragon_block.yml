@@ -1,0 +1,48 @@
+uuid: 907b8e67-68de-44ca-a950-9ee214264cde
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora
+    - openseadragon
+_core:
+  default_config_hash: G_LQNtyMrVQwL-cTX6ZdlouLbCHuJpfI2Sacc_I-0WE
+name: openseadragon_block
+label: 'Paged Content - Openseadragon'
+group: Display
+description: 'Display a block for Paged Content'
+requireAllConditions: false
+disabled: false
+conditions:
+  node_has_term:
+    id: node_has_term
+    negate: false
+    uuid: e5689bd5-7eec-4378-b329-2f35d5bb35b0
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uri: 'https://schema.org/Book,https://schema.org/PublicationIssue'
+    logic: or
+reactions:
+  blocks:
+    blocks:
+      d19bb20b-6aa3-477a-b717-a282ac57918c:
+        id: openseadragon_block
+        label: 'Openseadragon block'
+        label_display: '0'
+        provider: openseadragon
+        uuid: d19bb20b-6aa3-477a-b717-a282ac57918c
+        region: content
+        weight: '-2'
+        custom_id: openseadragon_block
+        theme: york_drupal_theme
+        css_class: ''
+        unique: 0
+        context_id: openseadragon_block
+        context_mapping: {  }
+        iiif_manifest_url: 'node/[node:nid]/book-manifest'
+        third_party_settings: {  }
+    id: blocks
+    uuid: 50b9b25e-0836-4531-8a78-9698d71d81de
+    include_default_blocks: 1
+    saved: false
+weight: -1

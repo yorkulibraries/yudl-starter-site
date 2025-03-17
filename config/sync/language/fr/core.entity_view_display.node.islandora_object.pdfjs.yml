@@ -1,0 +1,9 @@
+content:
+  field_coordinates:
+    settings:
+      map_provider_settings:
+        map_features:
+          leaflet_control_geocoder:
+            settings:
+              settings:
+                label: Adresse

@@ -1,0 +1,4 @@
+settings:
+  rel_types:
+    'schema:children': Enfants
+    'schema:parent': Parent

@@ -1,0 +1,14 @@
+uuid: 667b26fe-bbf7-4c10-a0d5-110aab7ab31e
+langcode: en
+status: true
+dependencies:
+  module:
+    - dgi_fixity
+    - media
+_core:
+  default_config_hash: fXq12nzA7-IqLbrIGkdw-IH0SaGk64hPgl4krDVWEHQ
+id: media_periodic_disable_action
+label: 'Disable periodic media checks'
+type: media
+plugin: 'dgi_fixity:periodic_disable_action:media'
+configuration: {  }

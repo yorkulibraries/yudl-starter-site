@@ -1,0 +1,39 @@
+uuid: b83ac615-0edb-4bd8-9971-fbc8c88c1a8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - context
+    - islandora
+  theme:
+    - york_drupal_theme
+_core:
+  default_config_hash: Vxvq1HNfXjYlJckYi7xsBoiWBUI5ApTcU9iG3BqK8LQ
+id: york_drupal_theme_page_title
+theme: york_drupal_theme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

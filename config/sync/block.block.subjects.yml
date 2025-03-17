@@ -1,0 +1,44 @@
+uuid: 9ebda852-8cde-444d-b158-06dfefbf5498
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.subjects
+  module:
+    - context
+    - facets
+    - islandora
+  theme:
+    - york_drupal_theme
+_core:
+  default_config_hash: 4jFQU8YkKgVwTQIV0gyOiHtEPGEAXgJ1c5trimjqft8
+id: subjects
+theme: york_drupal_theme
+region: sidebar_first
+weight: 7
+provider: null
+plugin: 'facet_block:subjects'
+settings:
+  id: 'facet_block:subjects'
+  label: Subjects
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: subjects
+visibility:
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

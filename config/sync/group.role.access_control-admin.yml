@@ -1,0 +1,16 @@
+uuid: 0b4f6c2a-d577-4c65-944a-cd47e0c476eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.access_control
+_core:
+  default_config_hash: KoViUssPLTrOVJhbyFmc7j6LbA5us2Gpt54PWqIK2OI
+id: access_control-admin
+label: Admin
+weight: 100
+admin: true
+scope: individual
+global_role: null
+group_type: access_control
+permissions: {  }

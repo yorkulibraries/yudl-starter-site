@@ -1,0 +1,18 @@
+uuid: 1ffbb52a-ca96-42df-8207-3f78fbcd8f6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - rest_oai_pmh
+    - user
+id: oai_pmh
+plugin_id: oai_pmh
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+  formats:
+    - oai_dc
+  authentication:
+    - cookie

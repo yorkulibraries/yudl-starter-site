@@ -1,0 +1,21 @@
+uuid: 114c3e6d-e0d1-4d01-8c7a-bb86fc8d3397
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_relation
+    - node.type.islandora_object
+_core:
+  default_config_hash: 5iC2_2PI3VvbfuahGSrAMDrSkV78YBUVMMupOtBsKVc
+id: node.islandora_object.field_relation
+field_name: field_relation
+entity_type: node
+bundle: islandora_object
+label: Relation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

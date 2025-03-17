@@ -1,0 +1,11 @@
+uuid: 576f5466-6f5c-4909-b07c-768074419272
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ojg7JzWPabpfEl_xNaJegqhViw50w-fKcmz79i7hKSc
+name: Province
+vid: province
+description: 'Province(s) to which the records pertain.'
+weight: 0
+new_revision: false

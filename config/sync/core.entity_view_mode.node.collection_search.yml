@@ -1,0 +1,13 @@
+uuid: 58d1e821-5064-4de9-9e8d-22f40a5936bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2sAME1YivIlaBA1d6mOla3ZiDiDJH-X3rfhBZF7SGpg
+id: node.collection_search
+label: 'Collection Search'
+description: ''
+targetEntityType: node
+cache: true

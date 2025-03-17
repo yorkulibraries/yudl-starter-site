@@ -1,0 +1,15 @@
+uuid: 0ff21965-2d02-4eaf-9527-8befb4181112
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module: {  }
+_core:
+  default_config_hash: TM57RUw0K-Ek650EZu8tA2bVfQdrpC820FziG66dRCM
+id: node.collection
+label: Collection
+description: ''
+targetEntityType: node
+cache: true

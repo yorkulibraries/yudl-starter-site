@@ -1,0 +1,14 @@
+uuid: 2e1e9604-7e45-4158-8705-94994594cb46
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IjhvW8vtMyesyRwxFB9VKsGaGgCAKSrXX034FQBeWbc
+id: suggest_a_correction
+label: 'Suggest a correction'
+recipients:
+  - ruestn@yorku.ca
+reply: ''
+weight: 0
+message: ''
+redirect: /

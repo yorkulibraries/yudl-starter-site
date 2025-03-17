@@ -1,0 +1,15 @@
+uuid: e533a542-54a7-4a41-a67b-98c46b5f6f7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module: {  }
+_core:
+  default_config_hash: 3gngsdemEmmFuj-H0Jo-6M8jGLvV7KErOZY44fxBhU0
+id: node.open_seadragon
+label: 'Open Seadragon'
+description: ''
+targetEntityType: node
+cache: true

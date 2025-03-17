@@ -1,0 +1,24 @@
+uuid: a70e16c6-fbe1-4d6b-865c-cda6e493670b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.islandora_object
+_core:
+  default_config_hash: 6b4KFr0Z6wLZP_1aZqDvJu9LKXJXiiqZMUNOgi7XMRM
+id: node.islandora_object.status
+field_name: status
+entity_type: node
+bundle: islandora_object
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

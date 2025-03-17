@@ -1,0 +1,13 @@
+uuid: d05531ea-ca29-4bde-9754-dc5917457415
+langcode: en
+status: true
+dependencies:
+  module:
+    - dgi_fixity
+_core:
+  default_config_hash: qjIfiRQspXD_OCoTYXMxPLx22q1nR52hTuli_SzgE-E
+id: fixity_check_delete_action
+label: 'Delete check'
+type: fixity_check
+plugin: 'entity:delete_action:fixity_check'
+configuration: {  }

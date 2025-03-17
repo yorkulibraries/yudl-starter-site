@@ -1,0 +1,18 @@
+uuid: 5bfdffc1-38a6-4fea-914a-417c15e527f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.county
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: 9QFRYPWw0G3YbjqeieI1V9ZDVXEDqEefv_9ZoDzPi6M
+id: taxonomy_term.county
+target_entity_type_id: taxonomy_term
+target_bundle: county
+default_langcode: site_default
+language_alterable: false

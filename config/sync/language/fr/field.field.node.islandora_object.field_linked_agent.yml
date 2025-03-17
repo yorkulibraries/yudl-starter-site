@@ -1,0 +1,11 @@
+settings:
+  rel_types:
+    'relators:aut': Auteur
+    'relators:cli': Client
+    'relators:cre': Créateur
+    'relators:edt': Éditeur
+    'relators:oth': Autre
+    'relators:own': Propriétaire
+    'relators:prv': Fournisseur
+    'relators:pbl': Éditeur
+    'relators:stg': Paramètre

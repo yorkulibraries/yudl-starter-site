@@ -1,0 +1,14 @@
+uuid: 3e26aafa-c8ec-4bd7-97e2-54ecec320464
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1_wSt-TyKwQ60NhzhWtu0ATcmogi2PXsC4qdW6HTI00
+id: access_control
+label: 'Access Control'
+description: ''
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - access_control-admin

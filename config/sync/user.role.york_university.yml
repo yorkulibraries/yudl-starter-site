@@ -1,0 +1,11 @@
+uuid: 39314579-7835-4765-81e0-55a56827da2a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 78zMIwzEvBgTkciCYMtUyLlwupBQrH9lhs9Y0USUTrk
+id: york_university
+label: 'York University'
+weight: 5
+is_admin: null
+permissions: {  }

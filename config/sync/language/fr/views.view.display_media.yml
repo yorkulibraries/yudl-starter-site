@@ -1,0 +1,22 @@
+display:
+  default:
+    display_title: Principal
+    display_options:
+      fields:
+        name:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: Appliquer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      arguments:
+        field_media_of_target_id:
+          exception:
+            title: Tout
+  thumbnail:
+    display_title: Vignette
+    display_options:
+      title: Vignette

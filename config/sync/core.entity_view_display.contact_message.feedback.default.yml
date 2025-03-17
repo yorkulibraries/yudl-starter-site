@@ -1,0 +1,33 @@
+uuid: 5773a28b-be74-4000-9b66-0fc0e15d369b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.field.contact_message.feedback.field_category
+_core:
+  default_config_hash: GpYFs_S9Z5OcMnmdOlxUwRt87TZPDNyX9R-FthPvJoA
+id: contact_message.feedback.default
+targetEntityType: contact_message
+bundle: feedback
+mode: default
+content:
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  message:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

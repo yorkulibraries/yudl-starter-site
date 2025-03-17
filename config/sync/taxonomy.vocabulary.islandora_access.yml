@@ -1,0 +1,11 @@
+uuid: 777f8edc-8d46-4ddc-b9ac-8f0919d17f7e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0H9Z642xlzxDPedMei2Z-MizELhA8JfRx2zE8OCWlIc
+name: 'Access Control'
+vid: islandora_access
+description: 'Terms used to limit, restrict, or coordinate access'
+weight: 0
+new_revision: false

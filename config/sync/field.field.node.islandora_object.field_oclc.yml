@@ -1,0 +1,21 @@
+uuid: 74c57d56-4e8d-4fae-8e3a-63de9b9d77c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_oclc
+    - node.type.islandora_object
+_core:
+  default_config_hash: t7WJ_vhvjgO26ON3xNJalJuczvrOXlnEKSp8NL3Yn6w
+id: node.islandora_object.field_oclc
+field_name: field_oclc
+entity_type: node
+bundle: islandora_object
+label: oclc
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,25 @@
+uuid: 7d050b0a-3567-4d5a-9790-cd0e3ca94a53
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.islandora_access
+  module:
+    - text
+_core:
+  default_config_hash: GHGKkCItBZZPjlAmrjRRrkrg2__JQeOev0AZu9LOZ3Q
+id: taxonomy_term.islandora_access.default
+targetEntityType: taxonomy_term
+bundle: islandora_access
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

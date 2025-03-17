@@ -1,0 +1,49 @@
+uuid: 25ab13b1-4f22-4d4e-8318-84689b441168
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - jsonld
+    - jwt
+    - serialization
+    - taxonomy
+    - user
+  enforced:
+    module:
+      - islandora_core_feature
+id: entity.taxonomy_term
+plugin_id: 'entity:taxonomy_term'
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - jsonld
+      - json
+    supported_auth:
+      - basic_auth
+      - jwt_auth
+      - cookie
+  POST:
+    supported_formats:
+      - hal_json
+      - json
+    supported_auth:
+      - basic_auth
+      - jwt_auth
+      - cookie
+  DELETE:
+    supported_formats:
+      - json
+    supported_auth:
+      - basic_auth
+      - jwt_auth
+      - cookie
+  PATCH:
+    supported_formats:
+      - json
+    supported_auth:
+      - basic_auth
+      - jwt_auth
+      - cookie

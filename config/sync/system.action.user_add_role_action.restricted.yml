@@ -1,0 +1,14 @@
+uuid: 744f7c8e-f4cf-4381-b822-cc35f665c85e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.restricted
+  module:
+    - user
+id: user_add_role_action.restricted
+label: 'Add the Restricted role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: restricted

@@ -1,0 +1,100 @@
+uuid: de2512ba-618f-4b4f-8964-f9b31f450770
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.region.field_authority_link
+    - field.field.taxonomy_term.region.field_geo_alt_name
+    - field.field.taxonomy_term.region.field_geo_broader
+    - field.field.taxonomy_term.region.field_geo_geolocation
+    - taxonomy.vocabulary.region
+  module:
+    - controlled_access_terms
+    - geolocation
+    - path
+    - text
+_core:
+  default_config_hash: Ts6BO_9_Od4Qp-NxO-sI8mjOhMWRFSzJna4PG39AGtc
+id: taxonomy_term.region.default
+targetEntityType: taxonomy_term
+bundle: region
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+      rows: 9
+      summary_rows: 3
+    third_party_settings: {  }
+  field_authority_link:
+    type: authority_link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_geo_alt_name:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_geo_broader:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_geo_geolocation:
+    type: geolocation_latlng
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  promote: true
+  sticky: true
+  uid: true

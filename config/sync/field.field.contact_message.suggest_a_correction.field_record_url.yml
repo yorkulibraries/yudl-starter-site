@@ -1,0 +1,21 @@
+uuid: 80914797-a093-4a2a-b968-b6fd0d649130
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.suggest_a_correction
+    - field.storage.contact_message.field_record_url
+_core:
+  default_config_hash: tNoKMAuqsxn8SGBw5vydApJsS1-kfKBPu_m2C46YilE
+id: contact_message.suggest_a_correction.field_record_url
+field_name: field_record_url
+entity_type: contact_message
+bundle: suggest_a_correction
+label: 'Record url'
+description: 'Enter the url for the record that you would like to suggest a correction on.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

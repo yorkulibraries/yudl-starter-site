@@ -1,0 +1,44 @@
+uuid: ac3229bd-a70b-4c9b-b53b-2c681b36c327
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.resource_type
+  module:
+    - context
+    - facets
+    - islandora
+  theme:
+    - york_drupal_theme
+_core:
+  default_config_hash: hx52zhLEibw4OFjXzopg3WuRfppgsdZ_n2Osqg5muJU
+id: resourcetype
+theme: york_drupal_theme
+region: sidebar_first
+weight: 6
+provider: null
+plugin: 'facet_block:resource_type'
+settings:
+  id: 'facet_block:resource_type'
+  label: 'Resource Type'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: resourcetype
+visibility:
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

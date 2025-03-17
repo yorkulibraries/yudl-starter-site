@@ -1,0 +1,11 @@
+uuid: 3abc8642-7562-4ad0-8f92-e10eceb351af
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rZG0Db-Ogx2KOUntSQY8h0mdOmkBrihBrCbG6hr8dts
+name: City
+vid: city
+description: 'City or cities to which the records pertain.'
+weight: 0
+new_revision: false

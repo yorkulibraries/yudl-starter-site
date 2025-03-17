@@ -1,0 +1,9 @@
+uuid: 5fef48a3-4f29-4fe0-b237-50f24785717d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Islandora Media Use'
+vid: islandora_media_use
+description: 'Terms to define how a media object is to be used.'
+weight: 0
+new_revision: false

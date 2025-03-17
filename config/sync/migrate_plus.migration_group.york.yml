@@ -1,0 +1,10 @@
+uuid: b3d70df0-5171-4a82-834b-a768ca10daa9
+langcode: en
+status: true
+dependencies: {  }
+id: york
+label: york
+description: ''
+source_type: null
+module: null
+shared_configuration: null

@@ -1,0 +1,17 @@
+uuid: 4a361d10-b1e1-46cd-bbfe-78a8aa5f86e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.access_control
+    - user.role.administrator
+_core:
+  default_config_hash: YnKiqurjFVuqbC1jYdM867qVSkFeBOJmzXPX5xM9AZA
+id: access_control-admin_out
+label: Administrator
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: access_control
+permissions: {  }

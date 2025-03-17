@@ -1,0 +1,17 @@
+uuid: ef66f566-6406-4096-b5ef-9d9441e318a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.access_control
+    - user.role.anonymous
+_core:
+  default_config_hash: oiOArnaODC1hGuqW_Zy2GEYjrBQefGMd_eWy5-byxcM
+id: access_control-anonymous
+label: Anonymous
+weight: -102
+admin: false
+scope: outsider
+global_role: anonymous
+group_type: access_control
+permissions: {  }

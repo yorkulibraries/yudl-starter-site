@@ -1,0 +1,11 @@
+uuid: 3c2ed8ae-1e34-4273-b1a7-a369805cf885
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wxRvzHyz-i5sRkyszOF3xKVz0k6of0HZtTcvhHz7wJ4
+name: 'Contact categories'
+vid: contact_categories
+description: null
+weight: 0
+new_revision: false

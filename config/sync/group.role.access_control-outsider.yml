@@ -1,0 +1,17 @@
+uuid: efbf6284-beb8-45f5-88fc-9306d1728c76
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.access_control
+    - user.role.authenticated
+_core:
+  default_config_hash: 7oLTvSZFairYhotcWA8PApXg5fovLzchHIdBJKk6MXw
+id: access_control-outsider
+label: Outsider
+weight: -101
+admin: false
+scope: outsider
+global_role: authenticated
+group_type: access_control
+permissions: {  }

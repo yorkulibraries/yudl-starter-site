@@ -1,0 +1,17 @@
+uuid: e6c92099-b37c-4537-bfa7-478b56979530
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora
+    - node
+  enforced:
+    module:
+      - islandora
+_core:
+  default_config_hash: mH7e4MgcCs4qzgeXZ6WimBvWOpTYDMsH7DMrLMVKIlw
+id: delete_node_and_media
+label: 'Delete node(s) and associated media'
+type: node
+plugin: delete_node_and_media
+configuration: {  }

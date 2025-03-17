@@ -1,0 +1,44 @@
+uuid: e6d500e0-5939-42bb-aa7a-f7486ca53eac
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.contributor
+  module:
+    - context
+    - facets
+    - islandora
+  theme:
+    - york_drupal_theme
+_core:
+  default_config_hash: sfhCupL-2osG8SQQakM_fPHkmeRl4wJE5Q6zmNf5DQE
+id: contributor
+theme: york_drupal_theme
+region: sidebar_first
+weight: 2
+provider: null
+plugin: 'facet_block:contributor'
+settings:
+  id: 'facet_block:contributor'
+  label: Contributor
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: contributor
+visibility:
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

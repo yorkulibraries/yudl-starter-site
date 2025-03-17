@@ -1,0 +1,21 @@
+uuid: 0c2f5e8c-c648-405a-9ff1-7be5b6f8e3b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hdl
+    - node.type.islandora_object
+_core:
+  default_config_hash: T8975HnJ3q2LehMjC0Hr59udXEiSGjHh6tpLJMJISJY
+id: node.islandora_object.field_hdl
+field_name: field_hdl
+entity_type: node
+bundle: islandora_object
+label: Permalink
+description: 'Generated Handle from YUDL Handle Server or provided Handle from YorkSpace Handle Server via migration.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

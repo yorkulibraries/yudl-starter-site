@@ -1,0 +1,17 @@
+uuid: f0e73802-167f-4eb9-a70c-796c9c35b348
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.access_control
+    - user.role.authenticated
+_core:
+  default_config_hash: RrrSpC0b8JZ1Wr1udA9m-xiR6-lOjXeg3KUu1UJ9Puc
+id: access_control-member
+label: Member
+weight: -100
+admin: false
+scope: insider
+global_role: authenticated
+group_type: access_control
+permissions: {  }

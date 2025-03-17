@@ -1,0 +1,28 @@
+label: Carte
+display:
+  default:
+    display_title: 'Par défaut'
+    display_options:
+      title: Carte
+      fields:
+        title:
+          separator: ', '
+        field_coordinates:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: Appliquer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      style:
+        options:
+          map_provider_settings:
+            map_features:
+              leaflet_control_geocoder:
+                settings:
+                  settings:
+                    label: Adresse
+  block_1:
+    display_title: Bloc

@@ -1,0 +1,171 @@
+{
+    "name": "yorkulibraries/yudl-starter-site",
+    "description": "Project template for YUDL site.",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://digital.library.yorku.ca",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "library/pdf.js",
+                "version": "2.16.105",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/mozilla/pdf.js/releases/download/v2.16.105/pdfjs-2.16.105-dist.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8",
+        "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
+        "discoverygarden/dgi_actions": "^1.8",
+        "discoverygarden/dgi_fixity": "^1.2",
+        "drupal/addtoany": "^2.0",
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/block_class": "^3.0",
+        "drupal/bootstrap_barrio": "^5.5",
+        "drupal/config_update": "^2.0@alpha",
+        "drupal/context": "^5@RC",
+        "drupal/controlled_access_terms": "^2",
+        "drupal/core-composer-scaffold": "^10.1",
+        "drupal/core-recommended": "^10.1",
+        "drupal/default_content": "^2.0@alpha",
+        "drupal/devel": "^5.2",
+        "drupal/eu_cookie_compliance": "^1.24",
+        "drupal/facets": "^2",
+        "drupal/features": "^3.14",
+        "drupal/field_group": "^3",
+        "drupal/field_permissions": "^1",
+        "drupal/field_report": "^2.1",
+        "drupal/flexible_permissions": "^2.0",
+        "drupal/flysystem": "^2.2@alpha",
+        "drupal/fontawesome": "^2.26",
+        "drupal/group": "^3.3",
+        "drupal/group_permissions": "^2.0@alpha",
+        "drupal/groupmedia": "^4.0",
+        "drupal/hal": "^2.0",
+        "drupal/islandora": "^2.8.1",
+        "drupal/jquery_ui_accordion": "^2.1",
+        "drupal/jquery_ui_slider": "^2.1",
+        "drupal/jquery_ui_touch_punch": "^1.1",
+        "drupal/matomo": "^1.22",
+        "drupal/metatag": "^2.0",
+        "drupal/oembed_providers": "^2.1",
+        "drupal/openseadragon": "^2",
+        "drupal/pathauto": "^1.12",
+        "drupal/pdf": "^1.2",
+        "drupal/redis",
+        "drupal/rest_oai_pmh": "^2.0@beta",
+        "drupal/restui": "^1.21",
+        "drupal/search_api_autocomplete": "^1.8",
+        "drupal/search_api_solr": "^4.2",
+        "drupal/simple_sitemap": "^4.1",
+        "drupal/taxonomy_manager": "^2.0",
+        "drupal/term_condition": "^2.0",
+        "drupal/term_merge": "^2.0@beta",
+        "drupal/twig_tweak": "^3.2",
+        "drupal/upgrade_status":" ^4.3",
+        "drupal/views_block_area": "^1.0@beta",
+        "drupal/views_bulk_edit": "^3.0",
+        "drupal/views_bulk_operations": "^4.2",
+        "drupal/views_data_export": "^1.2",
+        "drupal/views_field_view": "^1.0@beta",
+        "drupal/views_field_view": "^1.0@beta",
+        "drupal/views_infinite_scroll": "^2.0",
+        "drush/drush": "^13",
+        "easyrdf/easyrdf": "^1.1",
+        "islandora-rdm/islandora_fits": "dev-8.x-1.x as 1.x-dev",
+        "library/pdf.js": "^2.4",
+        "mjordan/islandora_repository_reports": "dev-main",
+        "mjordan/islandora_workbench_integration": "dev-main",
+        "predis/predis",
+        "yorkulibraries/yudl_customizations": "1.x-dev"
+    },
+    "conflict": {
+        "drupal/drupal": "*",
+        "drupal/core": "<=8"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "discard-changes": "stash",
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            },
+            "file-mapping": {
+                "[web-root]/sites/default/settings.php": {
+                    "mode": "append",
+                    "default": "web/core/assets/scaffold/files/default.settings.php",
+                    "append": "assets/patches/default_settings.txt"
+                }
+            }
+        },
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+        "patches": {
+            "twistor/flysystem-stream-wrapper": {
+                "PHP 8.2 deprecation warning": "assets/patches/flysystem-stream-wrapper.patch"
+            }
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "Islandora\\StarterSite::rootPackageInstall"
+        ]
+    },
+    "require-dev": {
+        "drupal/config_inspector": "^2.1",
+        "drupal/devel": "^5.0",
+        "drupal/restui": "^1.21"
+    },
+    "autoload": {
+        "classmap": [
+            "assets/IslandoraStarterSite.php"
+        ]
+    }
+}

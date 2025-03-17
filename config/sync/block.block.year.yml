@@ -1,0 +1,44 @@
+uuid: f04d6cfe-b0e9-44ad-9bfe-842309a510ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.year
+  module:
+    - context
+    - facets
+    - islandora
+  theme:
+    - york_drupal_theme
+_core:
+  default_config_hash: YxrxNb3HKMNPmB6-q_zofMxsMlUYoTbu-vMKpwjzWCA
+id: year
+theme: york_drupal_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:year'
+settings:
+  id: 'facet_block:year'
+  label: Year
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: year
+visibility:
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''
