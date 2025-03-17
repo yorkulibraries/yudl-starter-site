@@ -62,7 +62,7 @@
         "drupal/openseadragon": "^2",
         "drupal/pathauto": "^1.12",
         "drupal/pdf": "^1.2",
-        "drupal/redis",
+        "drupal/redis": "",
         "drupal/rest_oai_pmh": "^2.0@beta",
         "drupal/restui": "^1.21",
         "drupal/search_api_autocomplete": "^1.8",
@@ -86,7 +86,7 @@
         "library/pdf.js": "^2.4",
         "mjordan/islandora_repository_reports": "dev-main",
         "mjordan/islandora_workbench_integration": "dev-main",
-        "predis/predis",
+        "predis/predis": "",
         "yorkulibraries/yudl_customizations": "1.x-dev"
     },
     "conflict": {
