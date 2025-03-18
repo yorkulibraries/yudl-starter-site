@@ -86,6 +86,9 @@
         "mjordan/islandora_repository_reports": "dev-main",
         "mjordan/islandora_workbench_integration": "dev-main",
         "predis/predis": "*",
+        "yorkulibraries/yudl_drupal_theme": "dev-main",
+        "yorkulibraries/yudl_groups": "2.x-dev",
+        "yorkulibraries/group_solr": "dev-main",
         "yorkulibraries/yudl_customizations": "1.x-dev"
     },
     "conflict": {
