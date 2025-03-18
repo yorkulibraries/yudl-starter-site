@@ -10,6 +10,22 @@
             "url": "https://packages.drupal.org/8"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/yorkulibraries/york_drupal_theme"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/yorkulibraries/yudl_groups"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/yorkulibraries/group_solr"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/yorkulibraries/yudl_customizations"
+        },
+        {
             "type": "package",
             "package": {
                 "name": "library/pdf.js",
@@ -86,9 +102,9 @@
         "mjordan/islandora_repository_reports": "dev-main",
         "mjordan/islandora_workbench_integration": "dev-main",
         "predis/predis": "*",
-        "yorkulibraries/yudl_drupal_theme": "dev-main",
+        "yorkulibraries/york_drupal_theme": "dev-main",
         "yorkulibraries/yudl_groups": "2.x-dev",
-        "yorkulibraries/group_solr": "dev-main",
+        "digitalutsc/group_solr": "dev-main",
         "yorkulibraries/yudl_customizations": "1.x-dev"
     },
     "conflict": {
