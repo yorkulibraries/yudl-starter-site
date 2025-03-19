@@ -156,7 +156,7 @@ module:
   pathauto: 1
   content_translation: 10
   views: 10
-  standard: 1000
+  minimal: 1000
   eu_cookie_compliance: 1001
 theme:
   olivero: 0
