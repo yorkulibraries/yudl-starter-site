@@ -15,7 +15,7 @@ migration_group: york
 label: Country
 source:
   plugin: csv
-  path: modules/contrib/yudl_defaults/migrate/province.csv
+  path: ../assets/migrate/province.csv
   header_row_count: 1
   ids:
     - vid

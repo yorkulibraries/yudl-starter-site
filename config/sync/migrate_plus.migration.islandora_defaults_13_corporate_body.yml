@@ -15,7 +15,7 @@ migration_group: york
 label: 'Corporate Body'
 source:
   plugin: csv
-  path: modules/contrib/yudl_defaults/migrate/corporate-body.csv
+  path: ../assets/migrate/corporate-body.csv
   header_row_count: 1
   ids:
     - vid

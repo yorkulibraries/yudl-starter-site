@@ -15,7 +15,7 @@ migration_group: york
 label: 'Access migration for islandora_defaults feature'
 source:
   plugin: csv
-  path: modules/contrib/yudl_defaults/migrate/access.csv
+  path: ../assets/migrate/access.csv
   header_row_count: 1
   ids:
     - vid
