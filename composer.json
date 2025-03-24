@@ -11,27 +11,27 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/yorkulibraries/yudl_drupal_theme"
+            "url": "https://github.com/yorkulibraries/yudl_drupal_theme.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/yorkulibraries/yudl_groups"
+            "url": "https://github.com/yorkulibraries/yudl_groups.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/yorkulibraries/group_solr"
+            "url": "https://github.com/yorkulibraries/group_solr.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/yorkulibraries/yudl_customizations"
+            "url": "https://github.com/yorkulibraries/yudl_customizations.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/digitalutsc/islandora_group"
+            "url": "https://github.com/digitalutsc/islandora_group.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/ruebot/islandora_premis"
+            "url": "https://github.com/ruebot/islandora_premis.git"
         },
         {
             "type": "vcs",
