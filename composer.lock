@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe379700e9f5b746bae7edda16d611b3",
+    "content-hash": "9cb28ff9c96dfff411013d5a936f1a39",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2487,16 +2487,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.4.4",
+            "version": "10.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "cbee6ac30871d009eb7bc78cfc4f5cb9f911b95b"
+                "reference": "5247dbaa65b42b601058555f4a8b2bd541f5611f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/cbee6ac30871d009eb7bc78cfc4f5cb9f911b95b",
-                "reference": "cbee6ac30871d009eb7bc78cfc4f5cb9f911b95b",
+                "url": "https://api.github.com/repos/drupal/core/zipball/5247dbaa65b42b601058555f4a8b2bd541f5611f",
+                "reference": "5247dbaa65b42b601058555f4a8b2bd541f5611f",
                 "shasum": ""
             },
             "require": {
@@ -2645,13 +2645,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/10.4.4"
+                "source": "https://github.com/drupal/core/tree/10.4.5"
             },
-            "time": "2025-03-05T21:24:39+00:00"
+            "time": "2025-03-19T15:53:40+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.4.4",
+            "version": "10.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2695,22 +2695,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.4.4"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.4.5"
             },
             "time": "2024-08-22T14:31:30+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.4.4",
+            "version": "10.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "3abfb1e32918ac638e9dd5f0629ab5faf9bcbf00"
+                "reference": "4e5e7c47ec91012327a8a9e9bfcdbf51f6f115cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/3abfb1e32918ac638e9dd5f0629ab5faf9bcbf00",
-                "reference": "3abfb1e32918ac638e9dd5f0629ab5faf9bcbf00",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/4e5e7c47ec91012327a8a9e9bfcdbf51f6f115cc",
+                "reference": "4e5e7c47ec91012327a8a9e9bfcdbf51f6f115cc",
                 "shasum": ""
             },
             "require": {
@@ -2719,7 +2719,7 @@
                 "doctrine/annotations": "~1.14.4",
                 "doctrine/deprecations": "~1.1.3",
                 "doctrine/lexer": "~2.1.1",
-                "drupal/core": "10.4.4",
+                "drupal/core": "10.4.5",
                 "egulias/email-validator": "~4.0.2",
                 "guzzlehttp/guzzle": "~7.9.2",
                 "guzzlehttp/promises": "~2.0.4",
@@ -2780,9 +2780,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/10.4.4"
+                "source": "https://github.com/drupal/core-recommended/tree/10.4.5"
             },
-            "time": "2025-03-05T21:24:39+00:00"
+            "time": "2025-03-19T15:53:40+00:00"
         },
         {
             "name": "drupal/csv_serialization",
@@ -7213,16 +7213,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "4.0.3",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "b115554301161fa21467629f1e1391c1936de517"
+                "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/b115554301161fa21467629f1e1391c1936de517",
-                "reference": "b115554301161fa21467629f1e1391c1936de517",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
+                "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
                 "shasum": ""
             },
             "require": {
@@ -7268,7 +7268,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/4.0.3"
+                "source": "https://github.com/egulias/EmailValidator/tree/4.0.4"
             },
             "funding": [
                 {
@@ -7276,7 +7276,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-27T00:36:43+00:00"
+            "time": "2025-03-06T22:45:56+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -9452,16 +9452,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.21",
+            "version": "1.12.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "14276fdef70575106a3392a4ed553c06a984df28"
+                "reference": "29201e7a743a6ab36f91394eab51889a82631428"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/14276fdef70575106a3392a4ed553c06a984df28",
-                "reference": "14276fdef70575106a3392a4ed553c06a984df28",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/29201e7a743a6ab36f91394eab51889a82631428",
+                "reference": "29201e7a743a6ab36f91394eab51889a82631428",
                 "shasum": ""
             },
             "require": {
@@ -9506,7 +9506,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-09T09:24:50+00:00"
+            "time": "2025-03-23T14:57:32+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -13408,14 +13408,15 @@
             },
             "default-branch": true,
             "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "A Bootstrap Barrio SubTheme for YUDL.",
             "homepage": "https://github.com/yorkulibraries/yudl_drupal_theme",
             "support": {
-                "source": "https://github.com/yorkulibraries/yudl_drupal_theme/tree/main",
-                "issues": "https://github.com/yorkulibraries/yudl_drupal_theme/issues"
+                "issues": "https://github.com/yorkulibraries/yudl_drupal_theme/issues",
+                "source": "https://github.com/yorkulibraries/yudl_drupal_theme/tree/main"
             },
             "time": "2025-03-18T13:09:45+00:00"
         },
@@ -13435,6 +13436,7 @@
             },
             "default-branch": true,
             "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -13448,8 +13450,8 @@
             "description": "YUDL Customizations",
             "homepage": "https://github.com/yorkulibraries/yudl_customizations",
             "keywords": [
-                "Drupal",
-                "Islandora"
+                "Islandora",
+                "drupal"
             ],
             "support": {
                 "issues": "https://github.com/yorkulibraries/yudl_customizations/issues",
@@ -13476,14 +13478,15 @@
             },
             "default-branch": true,
             "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Provides default YUDL content",
             "homepage": "https://github.com/yorkulibraries/yudl_default_content",
             "support": {
-                "source": "https://github.com/yorkulibraries/yudl_default_content/tree/main",
-                "issues": "https://github.com/yorkulibraries/yudl_default_content/issues"
+                "issues": "https://github.com/yorkulibraries/yudl_default_content/issues",
+                "source": "https://github.com/yorkulibraries/yudl_default_content/tree/main"
             },
             "time": "2025-03-18T18:17:51+00:00"
         },
@@ -13506,14 +13509,15 @@
             },
             "default-branch": true,
             "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Provides initial YUDL Groups",
             "homepage": "https://github.com/yorkulibraries/yudl_groups",
             "support": {
-                "source": "https://github.com/yorkulibraries/yudl_groups/tree/redmine-4138",
-                "issues": "https://github.com/yorkulibraries/yudl_groups/issues"
+                "issues": "https://github.com/yorkulibraries/yudl_groups/issues",
+                "source": "https://github.com/yorkulibraries/yudl_groups/tree/redmine-4138"
             },
             "time": "2025-03-18T13:07:49+00:00"
         }
@@ -13601,6 +13605,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "digitalutsc/group_solr": 20,
+        "digitalutsc/islandora_group": 20,
         "drupal/config_update": 15,
         "drupal/context": 5,
         "drupal/default_content": 15,
@@ -13614,17 +13620,15 @@
         "mjordan/islandora_repository_reports": 20,
         "mjordan/islandora_workbench_integration": 20,
         "yorkulibraries/york_drupal_theme": 20,
-        "yorkulibraries/yudl_groups": 20,
-        "digitalutsc/islandora_group": 20,
+        "yorkulibraries/yudl_customizations": 20,
         "yorkulibraries/yudl_default_content": 20,
-        "digitalutsc/group_solr": 20,
-        "yorkulibraries/yudl_customizations": 20
+        "yorkulibraries/yudl_groups": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.4 || ^8"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
