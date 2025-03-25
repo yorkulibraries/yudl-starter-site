@@ -31,10 +31,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/ruebot/islandora_premis.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/yorkulibraries/yudl_default_content"
         },
         {
@@ -117,7 +113,6 @@
         "yorkulibraries/york_drupal_theme": "dev-main",
         "yorkulibraries/yudl_groups": "2.x-dev",
         "digitalutsc/islandora_group": "2.x-dev",
-        "islandora/islandora_premis": "dev-d10",
         "yorkulibraries/yudl_default_content": "dev-main",
         "digitalutsc/group_solr": "dev-main",
         "yorkulibraries/yudl_customizations": "1.x-dev"

@@ -7981,42 +7981,6 @@
             "time": "2023-03-17T14:10:32+00:00"
         },
         {
-            "name": "islandora/islandora_premis",
-            "version": "dev-d10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ruebot/islandora_premis.git",
-                "reference": "d602db62b8cd986a6e583bd3815ac4a74beb5a1d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ruebot/islandora_premis/zipball/d602db62b8cd986a6e583bd3815ac4a74beb5a1d",
-                "reference": "d602db62b8cd986a6e583bd3815ac4a74beb5a1d",
-                "shasum": ""
-            },
-            "require": {
-                "easyrdf/easyrdf": "^1.1"
-            },
-            "type": "drupal-module",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Jordan",
-                    "homepage": "https://github.com/mjordan",
-                    "role": "Owner"
-                }
-            ],
-            "description": "PREMIS serializer for Islandora",
-            "homepage": "https://github.com/mjordan/islandora_premis",
-            "support": {
-                "issues": "https://github.com/mjordan/islandora_premis/issues",
-                "source": "https://github.com/ruebot/islandora_premis/tree/d10"
-            },
-            "time": "2023-11-12T15:22:00+00:00"
-        },
-        {
             "name": "laminas/laminas-stdlib",
             "version": "3.20.0",
             "source": {
@@ -13652,7 +13616,6 @@
         "yorkulibraries/york_drupal_theme": 20,
         "yorkulibraries/yudl_groups": 20,
         "digitalutsc/islandora_group": 20,
-        "islandora/islandora_premis": 20,
         "yorkulibraries/yudl_default_content": 20,
         "digitalutsc/group_solr": 20,
         "yorkulibraries/yudl_customizations": 20
