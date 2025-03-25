@@ -30,10 +30,6 @@
             "url": "https://github.com/digitalutsc/islandora_group.git"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/yorkulibraries/yudl_default_content"
-        },
-        {
             "type": "package",
             "package": {
                 "name": "library/pdf.js",
