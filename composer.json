@@ -11,19 +11,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/yorkulibraries/yudl_drupal_theme.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/yorkulibraries/yudl_groups.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/yorkulibraries/group_solr.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/yorkulibraries/yudl_customizations.git"
         },
         {
             "type": "vcs",
